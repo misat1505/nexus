@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-30T14-26-56-144Z",
+  "generatedAt": "2026-10-31T09:42:17.484Z",
+  "site": {
+    "id": "react-router-csr",
+    "url": "https://react-router-mix-render-template.edgeone.app/csr",
+    "renderMode": "csr"
+  },
+  "profile": {
+    "id": "cpu6x-net100mbps",
+    "label": "6x CPU, 100 Mbps",
+    "group": "cpu",
+    "description": "CPU only: 6x slowdown, 100 Mbps",
+    "cpuSlowdownMultiplier": 6,
+    "network": {
+      "id": "100mbps",
+      "label": "100 Mbps",
+      "rttMs": 20,
+      "downloadThroughputKbps": 100000,
+      "uploadThroughputKbps": 100000
+    }
+  },
+  "settings": {
+    "warmupRuns": 2,
+    "measuredRuns": 10,
+    "formFactor": "desktop",
+    "screen": {
+      "mobile": false,
+      "width": 1920,
+      "height": 1080,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttlingMethod": "devtools"
+  },
+  "environment": {
+    "lighthouseVersion": "12.8.2",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  },
+  "durationMs": 230068,
+  "stats": {
+    "largest-contentful-paint": {
+      "n": 10,
+      "mean": 1376.55,
+      "median": 1379.86,
+      "stddev": 85.93,
+      "min": 1245.71,
+      "max": 1516.48
+    },
+    "first-contentful-paint": {
+      "n": 10,
+      "mean": 1218.06,
+      "median": 1266.51,
+      "stddev": 203.33,
+      "min": 791.98,
+      "max": 1473.83
+    },
+    "speed-index": {
+      "n": 10,
+      "mean": 3433.1,
+      "median": 3431.5,
+      "stddev": 144.31,
+      "min": 3236,
+      "max": 3678
+    },
+    "total-blocking-time": {
+      "n": 10,
+      "mean": 1375.62,
+      "median": 1308.75,
+      "stddev": 205.67,
+      "min": 1163.06,
+      "max": 1696.56
+    },
+    "max-potential-fid": {
+      "n": 10,
+      "mean": 663.66,
+      "median": 582.38,
+      "stddev": 161.69,
+      "min": 507.89,
+      "max": 988.18
+    },
+    "cumulative-layout-shift": {
+      "n": 10,
+      "mean": 0.18,
+      "median": 0.18,
+      "stddev": 0,
+      "min": 0.18,
+      "max": 0.18
+    },
+    "interactive": {
+      "n": 10,
+      "mean": 4290.49,
+      "median": 4277.49,
+      "stddev": 201.09,
+      "min": 3999.83,
+      "max": 4660.52
+    },
+    "server-response-time": {
+      "n": 10,
+      "mean": 371.4,
+      "median": 355.04,
+      "stddev": 65.1,
+      "min": 296.48,
+      "max": 503.34
+    }
+  },
+  "runs": [
+    {
+      "index": 1,
+      "ok": true,
+      "durationMs": 19058,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1345.496,
+          "display": "1.3 s",
+          "score": 0.85
+        },
+        "first-contentful-paint": {
+          "value": 1095.224,
+          "display": "1.1 s",
+          "score": 0.81
+        },
+        "speed-index": {
+          "value": 3236,
+          "display": "3.2 s",
+          "score": 0.21
+        },
+        "total-blocking-time": {
+          "value": 1177.4370000000004,
+          "display": "1,180 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 507.889,
+          "display": "510 ms",
+          "score": 0.08
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4047.794000061035,
+          "display": "4.0 s",
+          "score": 0.58
+        },
+        "server-response-time": {
+          "value": 337.421,
+          "display": "Root document took 340 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "durationMs": 18920,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1245.709,
+          "display": "1.2 s",
+          "score": 0.88
+        },
+        "first-contentful-paint": {
+          "value": 1245.709,
+          "display": "1.2 s",
+          "score": 0.72
+        },
+        "speed-index": {
+          "value": 3428,
+          "display": "3.4 s",
+          "score": 0.18
+        },
+        "total-blocking-time": {
+          "value": 1414.5870000000011,
+          "display": "1,410 ms",
+          "score": 0.01
+        },
+        "max-potential-fid": {
+          "value": 806.249,
+          "display": "810 ms",
+          "score": 0.01
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4330.421,
+          "display": "4.3 s",
+          "score": 0.53
+        },
+        "server-response-time": {
+          "value": 298.49699999999996,
+          "display": "Root document took 300 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "durationMs": 18892,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1414.226,
+          "display": "1.4 s",
+          "score": 0.83
+        },
+        "first-contentful-paint": {
+          "value": 1414.226,
+          "display": "1.4 s",
+          "score": 0.61
+        },
+        "speed-index": {
+          "value": 3441,
+          "display": "3.4 s",
+          "score": 0.17
+        },
+        "total-blocking-time": {
+          "value": 1184.0920000000008,
+          "display": "1,180 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 569.513,
+          "display": "570 ms",
+          "score": 0.05
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4264.539,
+          "display": "4.3 s",
+          "score": 0.54
+        },
+        "server-response-time": {
+          "value": 341.449,
+          "display": "Root document took 340 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "durationMs": 18943,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1320.581,
+          "display": "1.3 s",
+          "score": 0.86
+        },
+        "first-contentful-paint": {
+          "value": 1320.581,
+          "display": "1.3 s",
+          "score": 0.67
+        },
+        "speed-index": {
+          "value": 3678,
+          "display": "3.7 s",
+          "score": 0.14
+        },
+        "total-blocking-time": {
+          "value": 1661.7929999999997,
+          "display": "1,660 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 988.178,
+          "display": "990 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4660.517,
+          "display": "4.7 s",
+          "score": 0.47
+        },
+        "server-response-time": {
+          "value": 381.672,
+          "display": "Root document took 380 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "durationMs": 18956,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1420.873,
+          "display": "1.4 s",
+          "score": 0.83
+        },
+        "first-contentful-paint": {
+          "value": 1420.873,
+          "display": "1.4 s",
+          "score": 0.61
+        },
+        "speed-index": {
+          "value": 3665,
+          "display": "3.7 s",
+          "score": 0.14
+        },
+        "total-blocking-time": {
+          "value": 1470.8339999999996,
+          "display": "1,470 ms",
+          "score": 0.01
+        },
+        "max-potential-fid": {
+          "value": 897.511,
+          "display": "900 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4598.021000061035,
+          "display": "4.6 s",
+          "score": 0.48
+        },
+        "server-response-time": {
+          "value": 296.478,
+          "display": "Root document took 300 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "durationMs": 19164,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1287.317,
+          "display": "1.3 s",
+          "score": 0.87
+        },
+        "first-contentful-paint": {
+          "value": 1287.317,
+          "display": "1.3 s",
+          "score": 0.69
+        },
+        "speed-index": {
+          "value": 3427,
+          "display": "3.4 s",
+          "score": 0.18
+        },
+        "total-blocking-time": {
+          "value": 1197.5129999999997,
+          "display": "1,200 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 561.73,
+          "display": "560 ms",
+          "score": 0.05
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4290.441,
+          "display": "4.3 s",
+          "score": 0.54
+        },
+        "server-response-time": {
+          "value": 367.294,
+          "display": "Root document took 370 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "durationMs": 18903,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1448.466,
+          "display": "1.4 s",
+          "score": 0.82
+        },
+        "first-contentful-paint": {
+          "value": 998.046,
+          "display": "1.0 s",
+          "score": 0.86
+        },
+        "speed-index": {
+          "value": 3477,
+          "display": "3.5 s",
+          "score": 0.17
+        },
+        "total-blocking-time": {
+          "value": 1587.4049999999997,
+          "display": "1,590 ms",
+          "score": 0.01
+        },
+        "max-potential-fid": {
+          "value": 633.717,
+          "display": "630 ms",
+          "score": 0.03
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4334.73,
+          "display": "4.3 s",
+          "score": 0.53
+        },
+        "server-response-time": {
+          "value": 477.752,
+          "display": "Root document took 480 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "durationMs": 19007,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1292.484,
+          "display": "1.3 s",
+          "score": 0.87
+        },
+        "first-contentful-paint": {
+          "value": 791.982,
+          "display": "0.8 s",
+          "score": 0.95
+        },
+        "speed-index": {
+          "value": 3301,
+          "display": "3.3 s",
+          "score": 0.2
+        },
+        "total-blocking-time": {
+          "value": 1696.5550000000003,
+          "display": "1,700 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 555.144,
+          "display": "560 ms",
+          "score": 0.05
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4140.325,
+          "display": "4.1 s",
+          "score": 0.57
+        },
+        "server-response-time": {
+          "value": 351.707,
+          "display": "Root document took 350 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 9,
+      "ok": true,
+      "durationMs": 19265,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1516.48,
+          "display": "1.5 s",
+          "score": 0.8
+        },
+        "first-contentful-paint": {
+          "value": 1132.796,
+          "display": "1.1 s",
+          "score": 0.79
+        },
+        "speed-index": {
+          "value": 3243,
+          "display": "3.2 s",
+          "score": 0.21
+        },
+        "total-blocking-time": {
+          "value": 1202.9219999999996,
+          "display": "1,200 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 521.433,
+          "display": "520 ms",
+          "score": 0.07
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 3999.829,
+          "display": "4.0 s",
+          "score": 0.59
+        },
+        "server-response-time": {
+          "value": 358.377,
+          "display": "Root document took 360 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 10,
+      "ok": true,
+      "durationMs": 19136,
+      "finalUrl": "https://react-router-mix-render-template.edgeone.app/csr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1473.832,
+          "display": "1.5 s",
+          "score": 0.81
+        },
+        "first-contentful-paint": {
+          "value": 1473.832,
+          "display": "1.5 s",
+          "score": 0.57
+        },
+        "speed-index": {
+          "value": 3435,
+          "display": "3.4 s",
+          "score": 0.18
+        },
+        "total-blocking-time": {
+          "value": 1163.0569999999998,
+          "display": "1,160 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 595.252,
+          "display": "600 ms",
+          "score": 0.04
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1798626475277642,
+          "display": "0.18",
+          "score": 0.67
+        },
+        "interactive": {
+          "value": 4238.282,
+          "display": "4.2 s",
+          "score": 0.55
+        },
+        "server-response-time": {
+          "value": 503.33799999999997,
+          "display": "Root document took 500 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    }
+  ]
+}

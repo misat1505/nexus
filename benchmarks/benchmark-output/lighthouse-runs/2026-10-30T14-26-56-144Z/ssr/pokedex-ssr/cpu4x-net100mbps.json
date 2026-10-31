@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-30T14-26-56-144Z",
+  "generatedAt": "2026-10-30T21:14:59.790Z",
+  "site": {
+    "id": "pokedex-ssr",
+    "url": "https://pokedexwnext.netlify.app/ssr",
+    "renderMode": "ssr"
+  },
+  "profile": {
+    "id": "cpu4x-net100mbps",
+    "label": "4x CPU, 100 Mbps",
+    "group": "cpu",
+    "description": "CPU only: 4x slowdown, 100 Mbps",
+    "cpuSlowdownMultiplier": 4,
+    "network": {
+      "id": "100mbps",
+      "label": "100 Mbps",
+      "rttMs": 20,
+      "downloadThroughputKbps": 100000,
+      "uploadThroughputKbps": 100000
+    }
+  },
+  "settings": {
+    "warmupRuns": 2,
+    "measuredRuns": 10,
+    "formFactor": "desktop",
+    "screen": {
+      "mobile": false,
+      "width": 1920,
+      "height": 1080,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttlingMethod": "devtools"
+  },
+  "environment": {
+    "lighthouseVersion": "12.8.2",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  },
+  "durationMs": 278894,
+  "stats": {
+    "largest-contentful-paint": {
+      "n": 10,
+      "mean": 1164.67,
+      "median": 1040.58,
+      "stddev": 419.71,
+      "min": 790.8,
+      "max": 2273.4
+    },
+    "first-contentful-paint": {
+      "n": 10,
+      "mean": 1164.67,
+      "median": 1040.58,
+      "stddev": 419.71,
+      "min": 790.8,
+      "max": 2273.4
+    },
+    "speed-index": {
+      "n": 10,
+      "mean": 1229,
+      "median": 1089,
+      "stddev": 413.35,
+      "min": 869,
+      "max": 2323
+    },
+    "total-blocking-time": {
+      "n": 10,
+      "mean": 1252.29,
+      "median": 1253.56,
+      "stddev": 86.26,
+      "min": 1108.04,
+      "max": 1394.55
+    },
+    "max-potential-fid": {
+      "n": 10,
+      "mean": 627.61,
+      "median": 651.73,
+      "stddev": 46.73,
+      "min": 528.35,
+      "max": 679.24
+    },
+    "cumulative-layout-shift": {
+      "n": 10,
+      "mean": 0.16,
+      "median": 0.16,
+      "stddev": 0.05,
+      "min": 0.08,
+      "max": 0.23
+    },
+    "interactive": {
+      "n": 10,
+      "mean": 3815.56,
+      "median": 3719.74,
+      "stddev": 380.73,
+      "min": 3469.01,
+      "max": 4749.6
+    },
+    "server-response-time": {
+      "n": 10,
+      "mean": 812.42,
+      "median": 658.25,
+      "stddev": 406.8,
+      "min": 474.53,
+      "max": 1897.53
+    }
+  },
+  "runs": [
+    {
+      "index": 1,
+      "ok": true,
+      "durationMs": 22602,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 897.914,
+          "display": "0.9 s",
+          "score": 0.96
+        },
+        "first-contentful-paint": {
+          "value": 897.914,
+          "display": "0.9 s",
+          "score": 0.91
+        },
+        "speed-index": {
+          "value": 980,
+          "display": "1.0 s",
+          "score": 0.97
+        },
+        "total-blocking-time": {
+          "value": 1267.213,
+          "display": "1,270 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 656.447,
+          "display": "660 ms",
+          "score": 0.02
+        },
+        "cumulative-layout-shift": {
+          "value": 0.16929448068772684,
+          "display": "0.169",
+          "score": 0.7
+        },
+        "interactive": {
+          "value": 3497.273,
+          "display": "3.5 s",
+          "score": 0.7
+        },
+        "server-response-time": {
+          "value": 617.233,
+          "display": "Root document took 620 ms",
+          "score": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "durationMs": 22809,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 906.14,
+          "display": "0.9 s",
+          "score": 0.96
+        },
+        "first-contentful-paint": {
+          "value": 906.14,
+          "display": "0.9 s",
+          "score": 0.91
+        },
+        "speed-index": {
+          "value": 953,
+          "display": "1.0 s",
+          "score": 0.98
+        },
+        "total-blocking-time": {
+          "value": 1356.5749999999985,
+          "display": "1,360 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 679.239,
+          "display": "680 ms",
+          "score": 0.02
+        },
+        "cumulative-layout-shift": {
+          "value": 0.08162882745518578,
+          "display": "0.082",
+          "score": 0.94
+        },
+        "interactive": {
+          "value": 3469.008,
+          "display": "3.5 s",
+          "score": 0.71
+        },
+        "server-response-time": {
+          "value": 513.514,
+          "display": "Root document took 510 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "durationMs": 22928,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 790.803,
+          "display": "0.8 s",
+          "score": 0.98
+        },
+        "first-contentful-paint": {
+          "value": 790.803,
+          "display": "0.8 s",
+          "score": 0.95
+        },
+        "speed-index": {
+          "value": 869,
+          "display": "0.9 s",
+          "score": 0.99
+        },
+        "total-blocking-time": {
+          "value": 1394.5459999999994,
+          "display": "1,390 ms",
+          "score": 0.01
+        },
+        "max-potential-fid": {
+          "value": 591.136,
+          "display": "590 ms",
+          "score": 0.04
+        },
+        "cumulative-layout-shift": {
+          "value": 0.22782950629275744,
+          "display": "0.228",
+          "score": 0.55
+        },
+        "interactive": {
+          "value": 3550.139,
+          "display": "3.6 s",
+          "score": 0.69
+        },
+        "server-response-time": {
+          "value": 474.534,
+          "display": "Root document took 470 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "durationMs": 24868,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 2273.404,
+          "display": "2.3 s",
+          "score": 0.53
+        },
+        "first-contentful-paint": {
+          "value": 2273.404,
+          "display": "2.3 s",
+          "score": 0.2
+        },
+        "speed-index": {
+          "value": 2323,
+          "display": "2.3 s",
+          "score": 0.49
+        },
+        "total-blocking-time": {
+          "value": 1128.0490000000018,
+          "display": "1,130 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 612.675,
+          "display": "610 ms",
+          "score": 0.03
+        },
+        "cumulative-layout-shift": {
+          "value": 0.1342411376180777,
+          "display": "0.134",
+          "score": 0.8
+        },
+        "interactive": {
+          "value": 4749.603,
+          "display": "4.7 s",
+          "score": 0.45
+        },
+        "server-response-time": {
+          "value": 1897.5330000000001,
+          "display": "Root document took 1,900 ms",
+          "score": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "durationMs": 22958,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1355.88,
+          "display": "1.4 s",
+          "score": 0.85
+        },
+        "first-contentful-paint": {
+          "value": 1355.88,
+          "display": "1.4 s",
+          "score": 0.65
+        },
+        "speed-index": {
+          "value": 1438,
+          "display": "1.4 s",
+          "score": 0.85
+        },
+        "total-blocking-time": {
+          "value": 1299.3340000000005,
+          "display": "1,300 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 658.359,
+          "display": "660 ms",
+          "score": 0.02
+        },
+        "cumulative-layout-shift": {
+          "value": 0.2220452516707503,
+          "display": "0.222",
+          "score": 0.56
+        },
+        "interactive": {
+          "value": 4153.867,
+          "display": "4.2 s",
+          "score": 0.56
+        },
+        "server-response-time": {
+          "value": 1025.369,
+          "display": "Root document took 1,030 ms",
+          "score": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "durationMs": 23470,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1177.356,
+          "display": "1.2 s",
+          "score": 0.9
+        },
+        "first-contentful-paint": {
+          "value": 1177.356,
+          "display": "1.2 s",
+          "score": 0.76
+        },
+        "speed-index": {
+          "value": 1263,
+          "display": "1.3 s",
+          "score": 0.91
+        },
+        "total-blocking-time": {
+          "value": 1293.1650000000006,
+          "display": "1,290 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 647.017,
+          "display": "650 ms",
+          "score": 0.03
+        },
+        "cumulative-layout-shift": {
+          "value": 0.15875445348421563,
+          "display": "0.159",
+          "score": 0.73
+        },
+        "interactive": {
+          "value": 4028.739,
+          "display": "4.0 s",
+          "score": 0.59
+        },
+        "server-response-time": {
+          "value": 925.101,
+          "display": "Root document took 930 ms",
+          "score": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "durationMs": 23245,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1128.775,
+          "display": "1.1 s",
+          "score": 0.91
+        },
+        "first-contentful-paint": {
+          "value": 1128.775,
+          "display": "1.1 s",
+          "score": 0.79
+        },
+        "speed-index": {
+          "value": 1163,
+          "display": "1.2 s",
+          "score": 0.94
+        },
+        "total-blocking-time": {
+          "value": 1203.0539999999994,
+          "display": "1,200 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 656.683,
+          "display": "660 ms",
+          "score": 0.02
+        },
+        "cumulative-layout-shift": {
+          "value": 0.09380710613273079,
+          "display": "0.094",
+          "score": 0.91
+        },
+        "interactive": {
+          "value": 3733.147000061035,
+          "display": "3.7 s",
+          "score": 0.65
+        },
+        "server-response-time": {
+          "value": 699.266,
+          "display": "Root document took 700 ms",
+          "score": 0
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "durationMs": 23197,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 952.379,
+          "display": "1.0 s",
+          "score": 0.95
+        },
+        "first-contentful-paint": {
+          "value": 952.379,
+          "display": "1.0 s",
+          "score": 0.89
+        },
+        "speed-index": {
+          "value": 1015,
+          "display": "1.0 s",
+          "score": 0.97
+        },
+        "total-blocking-time": {
+          "value": 1233.0589999999997,
+          "display": "1,230 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 671.724,
+          "display": "670 ms",
+          "score": 0.02
+        },
+        "cumulative-layout-shift": {
+          "value": 0.18454122969974335,
+          "display": "0.185",
+          "score": 0.66
+        },
+        "interactive": {
+          "value": 3706.339,
+          "display": "3.7 s",
+          "score": 0.66
+        },
+        "server-response-time": {
+          "value": 563.121,
+          "display": "Root document took 560 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 9,
+      "ok": true,
+      "durationMs": 23278,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 801.17,
+          "display": "0.8 s",
+          "score": 0.98
+        },
+        "first-contentful-paint": {
+          "value": 801.17,
+          "display": "0.8 s",
+          "score": 0.95
+        },
+        "speed-index": {
+          "value": 884,
+          "display": "0.9 s",
+          "score": 0.98
+        },
+        "total-blocking-time": {
+          "value": 1239.9039999389652,
+          "display": "1,240 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 574.489,
+          "display": "570 ms",
+          "score": 0.05
+        },
+        "cumulative-layout-shift": {
+          "value": 0.16929448068772684,
+          "display": "0.169",
+          "score": 0.7
+        },
+        "interactive": {
+          "value": 3491.431999938965,
+          "display": "3.5 s",
+          "score": 0.7
+        },
+        "server-response-time": {
+          "value": 505.04600000000005,
+          "display": "Root document took 510 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 10,
+      "ok": true,
+      "durationMs": 23903,
+      "finalUrl": "https://pokedexwnext.netlify.app/ssr",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 1362.83,
+          "display": "1.4 s",
+          "score": 0.85
+        },
+        "first-contentful-paint": {
+          "value": 1362.83,
+          "display": "1.4 s",
+          "score": 0.64
+        },
+        "speed-index": {
+          "value": 1402,
+          "display": "1.4 s",
+          "score": 0.87
+        },
+        "total-blocking-time": {
+          "value": 1108.0439999999999,
+          "display": "1,110 ms",
+          "score": 0.04
+        },
+        "max-potential-fid": {
+          "value": 528.354,
+          "display": "530 ms",
+          "score": 0.07
+        },
+        "cumulative-layout-shift": {
+          "value": 0.14322163130746016,
+          "display": "0.143",
+          "score": 0.78
+        },
+        "interactive": {
+          "value": 3776.034,
+          "display": "3.8 s",
+          "score": 0.64
+        },
+        "server-response-time": {
+          "value": 903.527,
+          "display": "Root document took 900 ms",
+          "score": 0
+        }
+      },
+      "error": null
+    }
+  ]
+}

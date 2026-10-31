@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-30T14-26-56-144Z",
+  "generatedAt": "2026-10-30T16:32:01.715Z",
+  "site": {
+    "id": "linkup-frontend",
+    "url": "https://linkup-frontend-xaom.onrender.com/",
+    "renderMode": "csr"
+  },
+  "profile": {
+    "id": "cpu3x-net1mbps",
+    "label": "3x CPU, 1 Mbps",
+    "group": "combined",
+    "description": "Combined: 3x CPU + 1 Mbps",
+    "cpuSlowdownMultiplier": 3,
+    "network": {
+      "id": "1mbps",
+      "label": "1 Mbps",
+      "rttMs": 20,
+      "downloadThroughputKbps": 1000,
+      "uploadThroughputKbps": 1000
+    }
+  },
+  "settings": {
+    "warmupRuns": 2,
+    "measuredRuns": 10,
+    "formFactor": "desktop",
+    "screen": {
+      "mobile": false,
+      "width": 1920,
+      "height": 1080,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttlingMethod": "devtools"
+  },
+  "environment": {
+    "lighthouseVersion": "12.8.2",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  },
+  "durationMs": 366550,
+  "stats": {
+    "largest-contentful-paint": {
+      "n": 10,
+      "mean": 12503.35,
+      "median": 12527.64,
+      "stddev": 210.17,
+      "min": 12127.8,
+      "max": 12905.32
+    },
+    "first-contentful-paint": {
+      "n": 10,
+      "mean": 3032.23,
+      "median": 2982.15,
+      "stddev": 105.4,
+      "min": 2918.6,
+      "max": 3197.98
+    },
+    "speed-index": {
+      "n": 10,
+      "mean": 6710.2,
+      "median": 6716,
+      "stddev": 132.25,
+      "min": 6494,
+      "max": 6995
+    },
+    "total-blocking-time": {
+      "n": 10,
+      "mean": 4074.83,
+      "median": 4044.26,
+      "stddev": 144.42,
+      "min": 3869.32,
+      "max": 4272.59
+    },
+    "max-potential-fid": {
+      "n": 10,
+      "mean": 1744.12,
+      "median": 1723.57,
+      "stddev": 88.39,
+      "min": 1607.85,
+      "max": 1872.43
+    },
+    "cumulative-layout-shift": {
+      "n": 10,
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0
+    },
+    "interactive": {
+      "n": 10,
+      "mean": 11838.37,
+      "median": 11854.27,
+      "stddev": 215.75,
+      "min": 11507.07,
+      "max": 12275.97
+    },
+    "server-response-time": {
+      "n": 10,
+      "mean": 52.58,
+      "median": 42.13,
+      "stddev": 23.45,
+      "min": 32.47,
+      "max": 107.75
+    }
+  },
+  "runs": [
+    {
+      "index": 1,
+      "ok": true,
+      "durationMs": 29917,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12435.308,
+          "display": "12.4 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 2975.855,
+          "display": "3.0 s",
+          "score": 0.06
+        },
+        "speed-index": {
+          "value": 6671,
+          "display": "6.7 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 4057.715000000001,
+          "display": "4,060 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1754.724,
+          "display": "1,750 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026141131365740747,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11748.681,
+          "display": "11.7 s",
+          "score": 0.02
+        },
+        "server-response-time": {
+          "value": 69.207,
+          "display": "Root document took 70 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "durationMs": 30711,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12631.794,
+          "display": "12.6 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 2972.162,
+          "display": "3.0 s",
+          "score": 0.07
+        },
+        "speed-index": {
+          "value": 6740,
+          "display": "6.7 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 4272.586999969482,
+          "display": "4,270 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1815.692,
+          "display": "1,820 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002639130015432099,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11991.658999969482,
+          "display": "12.0 s",
+          "score": 0.01
+        },
+        "server-response-time": {
+          "value": 36.595,
+          "display": "Root document took 40 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "durationMs": 30368,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12581.364,
+          "display": "12.6 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 2988.442,
+          "display": "3.0 s",
+          "score": 0.06
+        },
+        "speed-index": {
+          "value": 6709,
+          "display": "6.7 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 4194.758000000002,
+          "display": "4,190 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1837.854,
+          "display": "1,840 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026407375257201648,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11896.679000061034,
+          "display": "11.9 s",
+          "score": 0.01
+        },
+        "server-response-time": {
+          "value": 43.374,
+          "display": "Root document took 40 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "durationMs": 30355,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12127.803,
+          "display": "12.1 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 2918.599,
+          "display": "2.9 s",
+          "score": 0.07
+        },
+        "speed-index": {
+          "value": 6494,
+          "display": "6.5 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 3918.6480000000015,
+          "display": "3,920 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1670.464,
+          "display": "1,670 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026179309735082307,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11507.066,
+          "display": "11.5 s",
+          "score": 0.02
+        },
+        "server-response-time": {
+          "value": 34.062,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "durationMs": 30402,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12624.992,
+          "display": "12.6 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 2948.702,
+          "display": "2.9 s",
+          "score": 0.07
+        },
+        "speed-index": {
+          "value": 6723,
+          "display": "6.7 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 4232.5729999999985,
+          "display": "4,230 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1845.127,
+          "display": "1,850 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026247126575360085,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11954.609000030518,
+          "display": "12.0 s",
+          "score": 0.01
+        },
+        "server-response-time": {
+          "value": 44.059,
+          "display": "Root document took 40 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "durationMs": 30484,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12385.747,
+          "display": "12.4 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 2926.299,
+          "display": "2.9 s",
+          "score": 0.07
+        },
+        "speed-index": {
+          "value": 6588,
+          "display": "6.6 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 3924.730000000002,
+          "display": "3,920 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1687.327,
+          "display": "1,690 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026393309542181075,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11629.1,
+          "display": "11.6 s",
+          "score": 0.02
+        },
+        "server-response-time": {
+          "value": 38.567,
+          "display": "Root document took 40 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "durationMs": 30889,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12473.907,
+          "display": "12.5 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 3197.979,
+          "display": "3.2 s",
+          "score": 0.04
+        },
+        "speed-index": {
+          "value": 6742,
+          "display": "6.7 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 4030.8029999999994,
+          "display": "4,030 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1692.424,
+          "display": "1,690 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026268727494855972,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11811.865000030517,
+          "display": "11.8 s",
+          "score": 0.01
+        },
+        "server-response-time": {
+          "value": 40.891,
+          "display": "Root document took 40 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "durationMs": 30618,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12905.316,
+          "display": "12.9 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 3178.959,
+          "display": "3.2 s",
+          "score": 0.05
+        },
+        "speed-index": {
+          "value": 6995,
+          "display": "7.0 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 4254.0749999694835,
+          "display": "4,250 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1872.43,
+          "display": "1,870 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026306905864197535,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 12275.972999969483,
+          "display": "12.3 s",
+          "score": 0.01
+        },
+        "server-response-time": {
+          "value": 107.754,
+          "display": "Root document took 110 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 9,
+      "ok": true,
+      "durationMs": 30197,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12624.24,
+          "display": "12.6 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 3181.474,
+          "display": "3.2 s",
+          "score": 0.05
+        },
+        "speed-index": {
+          "value": 6839,
+          "display": "6.8 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 3993.058,
+          "display": "3,990 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1657.285,
+          "display": "1,660 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002710664223251029,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11964.843,
+          "display": "12.0 s",
+          "score": 0.01
+        },
+        "server-response-time": {
+          "value": 78.78399999999999,
+          "display": "Root document took 80 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 10,
+      "ok": true,
+      "durationMs": 30046,
+      "finalUrl": "https://linkup-frontend-xaom.onrender.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 12243.042,
+          "display": "12.2 s",
+          "score": 0
+        },
+        "first-contentful-paint": {
+          "value": 3033.818,
+          "display": "3.0 s",
+          "score": 0.06
+        },
+        "speed-index": {
+          "value": 6601,
+          "display": "6.6 s",
+          "score": 0
+        },
+        "total-blocking-time": {
+          "value": 3869.322000000003,
+          "display": "3,870 ms",
+          "score": 0
+        },
+        "max-potential-fid": {
+          "value": 1607.846,
+          "display": "1,610 ms",
+          "score": 0
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000026511863425925928,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 11603.217,
+          "display": "11.6 s",
+          "score": 0.02
+        },
+        "server-response-time": {
+          "value": 32.465,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    }
+  ]
+}

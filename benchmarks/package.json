@@ -9,7 +9,10 @@
 		"benchmark:react": "pnpm build && node ./dist/benchmark.js --mode react",
 		"benchmark:nextjs": "pnpm build && node ./dist/benchmark.js --mode nextjs",
 		"benchmark:quick": "pnpm build && node ./dist/benchmark.js --iterations 2",
-		"benchmark:mobile": "pnpm build && node ./dist/benchmark.js --profile mobile-mid-3g"
+		"benchmark:mobile": "pnpm build && node ./dist/benchmark.js --profile mobile-mid-3g",
+		"benchmark:sites": "pnpm build && node ./dist/benchmark-sites.js",
+		"benchmark:sites:list": "pnpm build && node ./dist/benchmark-sites.js --list",
+		"benchmark:sites:quick": "pnpm build && node ./dist/benchmark-sites.js --iterations 1 --warmup 0"
 	},
 	"keywords": [],
 	"author": "",

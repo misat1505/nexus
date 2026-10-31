@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-30T14-26-56-144Z",
+  "startedAt": "2026-10-30T14:26:56.150Z",
+  "node": "v22.14.0",
+  "warmupRuns": 2,
+  "measuredRuns": 10,
+  "formFactor": "desktop",
+  "screen": {
+    "mobile": false,
+    "width": 1920,
+    "height": 1080,
+    "deviceScaleFactor": 1,
+    "disabled": false
+  },
+  "networkRttMs": 20,
+  "throttlingMethod": "devtools",
+  "metrics": [
+    "largest-contentful-paint",
+    "first-contentful-paint",
+    "speed-index",
+    "total-blocking-time",
+    "max-potential-fid",
+    "cumulative-layout-shift",
+    "interactive",
+    "server-response-time"
+  ],
+  "sites": [
+    {
+      "id": "linkup-next",
+      "url": "https://linkup-web-next.vercel.app",
+      "renderMode": "ssg"
+    },
+    {
+      "id": "linkup-frontend",
+      "url": "https://linkup-frontend-xaom.onrender.com/",
+      "renderMode": "csr"
+    },
+    {
+      "id": "linea-csr",
+      "url": "https://linea.demo.commercengine.com",
+      "renderMode": "csr"
+    },
+    {
+      "id": "linea-next",
+      "url": "https://linea-next.demo.commercengine.com",
+      "renderMode": "ssg"
+    },
+    {
+      "id": "pokedex-csr",
+      "url": "https://pokedexwnext.netlify.app/csr",
+      "renderMode": "csr"
+    },
+    {
+      "id": "pokedex-ssr",
+      "url": "https://pokedexwnext.netlify.app/ssr",
+      "renderMode": "ssr"
+    },
+    {
+      "id": "pokedex-ssg",
+      "url": "https://pokedexwnext.netlify.app/ssg",
+      "renderMode": "ssg"
+    },
+    {
+      "id": "react-router-ssr",
+      "url": "https://react-router-mix-render-template.edgeone.app/ssr",
+      "renderMode": "ssr"
+    },
+    {
+      "id": "react-router-csr",
+      "url": "https://react-router-mix-render-template.edgeone.app/csr",
+      "renderMode": "csr"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "cpu1x-net100mbps",
+      "label": "1x CPU, 100 Mbps",
+      "group": "baseline",
+      "description": "Baseline: no CPU slowdown, 100 Mbps",
+      "cpuSlowdownMultiplier": 1,
+      "network": {
+        "id": "100mbps",
+        "label": "100 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100000,
+        "uploadThroughputKbps": 100000
+      }
+    },
+    {
+      "id": "cpu2x-net100mbps",
+      "label": "2x CPU, 100 Mbps",
+      "group": "cpu",
+      "description": "CPU only: 2x slowdown, 100 Mbps",
+      "cpuSlowdownMultiplier": 2,
+      "network": {
+        "id": "100mbps",
+        "label": "100 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100000,
+        "uploadThroughputKbps": 100000
+      }
+    },
+    {
+      "id": "cpu3x-net100mbps",
+      "label": "3x CPU, 100 Mbps",
+      "group": "cpu",
+      "description": "CPU only: 3x slowdown, 100 Mbps",
+      "cpuSlowdownMultiplier": 3,
+      "network": {
+        "id": "100mbps",
+        "label": "100 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100000,
+        "uploadThroughputKbps": 100000
+      }
+    },
+    {
+      "id": "cpu4x-net100mbps",
+      "label": "4x CPU, 100 Mbps",
+      "group": "cpu",
+      "description": "CPU only: 4x slowdown, 100 Mbps",
+      "cpuSlowdownMultiplier": 4,
+      "network": {
+        "id": "100mbps",
+        "label": "100 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100000,
+        "uploadThroughputKbps": 100000
+      }
+    },
+    {
+      "id": "cpu6x-net100mbps",
+      "label": "6x CPU, 100 Mbps",
+      "group": "cpu",
+      "description": "CPU only: 6x slowdown, 100 Mbps",
+      "cpuSlowdownMultiplier": 6,
+      "network": {
+        "id": "100mbps",
+        "label": "100 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100000,
+        "uploadThroughputKbps": 100000
+      }
+    },
+    {
+      "id": "cpu1x-net10mbps",
+      "label": "1x CPU, 10 Mbps",
+      "group": "network",
+      "description": "Network only: 10 Mbps, no CPU slowdown",
+      "cpuSlowdownMultiplier": 1,
+      "network": {
+        "id": "10mbps",
+        "label": "10 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 10000,
+        "uploadThroughputKbps": 10000
+      }
+    },
+    {
+      "id": "cpu1x-net1mbps",
+      "label": "1x CPU, 1 Mbps",
+      "group": "network",
+      "description": "Network only: 1 Mbps, no CPU slowdown",
+      "cpuSlowdownMultiplier": 1,
+      "network": {
+        "id": "1mbps",
+        "label": "1 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 1000,
+        "uploadThroughputKbps": 1000
+      }
+    },
+    {
+      "id": "cpu1x-net100kbps",
+      "label": "1x CPU, 100 kbps",
+      "group": "network",
+      "description": "Network only: 100 kbps, no CPU slowdown",
+      "cpuSlowdownMultiplier": 1,
+      "network": {
+        "id": "100kbps",
+        "label": "100 kbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100,
+        "uploadThroughputKbps": 100
+      }
+    },
+    {
+      "id": "cpu2x-net10mbps",
+      "label": "2x CPU, 10 Mbps",
+      "group": "combined",
+      "description": "Combined: 2x CPU + 10 Mbps",
+      "cpuSlowdownMultiplier": 2,
+      "network": {
+        "id": "10mbps",
+        "label": "10 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 10000,
+        "uploadThroughputKbps": 10000
+      }
+    },
+    {
+      "id": "cpu3x-net1mbps",
+      "label": "3x CPU, 1 Mbps",
+      "group": "combined",
+      "description": "Combined: 3x CPU + 1 Mbps",
+      "cpuSlowdownMultiplier": 3,
+      "network": {
+        "id": "1mbps",
+        "label": "1 Mbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 1000,
+        "uploadThroughputKbps": 1000
+      }
+    },
+    {
+      "id": "cpu4x-net100kbps",
+      "label": "4x CPU, 100 kbps",
+      "group": "combined",
+      "description": "Combined: 4x CPU + 100 kbps",
+      "cpuSlowdownMultiplier": 4,
+      "network": {
+        "id": "100kbps",
+        "label": "100 kbps",
+        "rttMs": 20,
+        "downloadThroughputKbps": 100,
+        "uploadThroughputKbps": 100
+      }
+    }
+  ]
+}

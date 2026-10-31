@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-30T14-26-56-144Z",
+  "generatedAt": "2026-10-30T18:28:33.695Z",
+  "site": {
+    "id": "linea-next",
+    "url": "https://linea-next.demo.commercengine.com",
+    "renderMode": "ssg"
+  },
+  "profile": {
+    "id": "cpu3x-net100mbps",
+    "label": "3x CPU, 100 Mbps",
+    "group": "cpu",
+    "description": "CPU only: 3x slowdown, 100 Mbps",
+    "cpuSlowdownMultiplier": 3,
+    "network": {
+      "id": "100mbps",
+      "label": "100 Mbps",
+      "rttMs": 20,
+      "downloadThroughputKbps": 100000,
+      "uploadThroughputKbps": 100000
+    }
+  },
+  "settings": {
+    "warmupRuns": 2,
+    "measuredRuns": 10,
+    "formFactor": "desktop",
+    "screen": {
+      "mobile": false,
+      "width": 1920,
+      "height": 1080,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttlingMethod": "devtools"
+  },
+  "environment": {
+    "lighthouseVersion": "12.8.2",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  },
+  "durationMs": 245349,
+  "stats": {
+    "largest-contentful-paint": {
+      "n": 10,
+      "mean": 444.85,
+      "median": 436.31,
+      "stddev": 44.88,
+      "min": 403.41,
+      "max": 559.96
+    },
+    "first-contentful-paint": {
+      "n": 10,
+      "mean": 379.79,
+      "median": 407.22,
+      "stddev": 74.56,
+      "min": 251.81,
+      "max": 473.08
+    },
+    "speed-index": {
+      "n": 10,
+      "mean": 571.2,
+      "median": 557.5,
+      "stddev": 40.4,
+      "min": 513,
+      "max": 659
+    },
+    "total-blocking-time": {
+      "n": 10,
+      "mean": 1138.17,
+      "median": 1117.88,
+      "stddev": 76.57,
+      "min": 1033,
+      "max": 1337.32
+    },
+    "max-potential-fid": {
+      "n": 10,
+      "mean": 394.91,
+      "median": 394.21,
+      "stddev": 27.09,
+      "min": 366.86,
+      "max": 460.64
+    },
+    "cumulative-layout-shift": {
+      "n": 10,
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0
+    },
+    "interactive": {
+      "n": 10,
+      "mean": 4285.42,
+      "median": 4233.78,
+      "stddev": 161.55,
+      "min": 4075.88,
+      "max": 4535.97
+    },
+    "server-response-time": {
+      "n": 10,
+      "mean": 32.74,
+      "median": 32.08,
+      "stddev": 4.66,
+      "min": 28.56,
+      "max": 45.76
+    }
+  },
+  "runs": [
+    {
+      "index": 1,
+      "ok": true,
+      "durationMs": 19809,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 435.275,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 251.811,
+          "display": "0.3 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 578,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1125.5630000000008,
+          "display": "1,130 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 389.004,
+          "display": "390 ms",
+          "score": 0.19
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00019721550554212223,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4225.194,
+          "display": "4.2 s",
+          "score": 0.55
+        },
+        "server-response-time": {
+          "value": 29.707,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "durationMs": 20381,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 559.957,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 293.015,
+          "display": "0.3 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 659,
+          "display": "0.7 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1190.5489999999995,
+          "display": "1,190 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 376.804,
+          "display": "380 ms",
+          "score": 0.21
+        },
+        "cumulative-layout-shift": {
+          "value": 0.0006958618361681168,
+          "display": "0.001",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4242.361,
+          "display": "4.2 s",
+          "score": 0.55
+        },
+        "server-response-time": {
+          "value": 33.484,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "durationMs": 20418,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 441.005,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 441.005,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 551,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1117.4700000000003,
+          "display": "1,120 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 366.86,
+          "display": "370 ms",
+          "score": 0.22
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002066058453104561,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4512.011,
+          "display": "4.5 s",
+          "score": 0.49
+        },
+        "server-response-time": {
+          "value": 30.231,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "durationMs": 20353,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 467.99,
+          "display": "0.5 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 267.812,
+          "display": "0.3 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 602,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1151.6960000000017,
+          "display": "1,150 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 368.313,
+          "display": "370 ms",
+          "score": 0.22
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000025023556219951947,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4097.276,
+          "display": "4.1 s",
+          "score": 0.57
+        },
+        "server-response-time": {
+          "value": 45.757,
+          "display": "Root document took 50 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "durationMs": 20274,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 409.671,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 409.671,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 553,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1118.2929999999997,
+          "display": "1,120 ms",
+          "score": 0.03
+        },
+        "max-potential-fid": {
+          "value": 415.618,
+          "display": "420 ms",
+          "score": 0.15
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002066058453104561,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4475.488,
+          "display": "4.5 s",
+          "score": 0.5
+        },
+        "server-response-time": {
+          "value": 29.16,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "durationMs": 19960,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 415.966,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 415.966,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 552,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1337.3249999999994,
+          "display": "1,340 ms",
+          "score": 0.02
+        },
+        "max-potential-fid": {
+          "value": 460.637,
+          "display": "460 ms",
+          "score": 0.11
+        },
+        "cumulative-layout-shift": {
+          "value": 0.000050298174670423414,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4535.973,
+          "display": "4.5 s",
+          "score": 0.49
+        },
+        "server-response-time": {
+          "value": 28.557,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "durationMs": 19920,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 403.409,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 403.409,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 513,
+          "display": "0.5 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1032.9950000000003,
+          "display": "1,030 ms",
+          "score": 0.05
+        },
+        "max-potential-fid": {
+          "value": 369.796,
+          "display": "370 ms",
+          "score": 0.22
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002066058453104561,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4075.882,
+          "display": "4.1 s",
+          "score": 0.58
+        },
+        "server-response-time": {
+          "value": 32.828,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "durationMs": 20220,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 404.775,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 404.775,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 532,
+          "display": "0.5 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1104.6710000000007,
+          "display": "1,100 ms",
+          "score": 0.04
+        },
+        "max-potential-fid": {
+          "value": 401.21,
+          "display": "400 ms",
+          "score": 0.17
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002066058453104561,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4162.118,
+          "display": "4.2 s",
+          "score": 0.56
+        },
+        "server-response-time": {
+          "value": 31.751,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 9,
+      "ok": true,
+      "durationMs": 20644,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 437.349,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 437.349,
+          "display": "0.4 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 562,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1111.5430000000008,
+          "display": "1,110 ms",
+          "score": 0.04
+        },
+        "max-potential-fid": {
+          "value": 401.417,
+          "display": "400 ms",
+          "score": 0.17
+        },
+        "cumulative-layout-shift": {
+          "value": 0.0005193069151570402,
+          "display": "0.001",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4334.019,
+          "display": "4.3 s",
+          "score": 0.53
+        },
+        "server-response-time": {
+          "value": 33.458999999999996,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 10,
+      "ok": true,
+      "durationMs": 20637,
+      "finalUrl": "https://linea-next.demo.commercengine.com/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 473.076,
+          "display": "0.5 s",
+          "score": 1
+        },
+        "first-contentful-paint": {
+          "value": 473.076,
+          "display": "0.5 s",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 610,
+          "display": "0.6 s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 1091.6120000000005,
+          "display": "1,090 ms",
+          "score": 0.04
+        },
+        "max-potential-fid": {
+          "value": 399.425,
+          "display": "400 ms",
+          "score": 0.17
+        },
+        "cumulative-layout-shift": {
+          "value": 0.00002066058453104561,
+          "display": "0",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4193.864,
+          "display": "4.2 s",
+          "score": 0.55
+        },
+        "server-response-time": {
+          "value": 32.416,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    }
+  ]
+}

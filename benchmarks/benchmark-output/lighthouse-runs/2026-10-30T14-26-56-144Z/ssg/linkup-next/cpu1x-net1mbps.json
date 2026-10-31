@@ -1,0 +1,610 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-10-30T14-26-56-144Z",
+  "generatedAt": "2026-10-30T14:55:48.502Z",
+  "site": {
+    "id": "linkup-next",
+    "url": "https://linkup-web-next.vercel.app",
+    "renderMode": "ssg"
+  },
+  "profile": {
+    "id": "cpu1x-net1mbps",
+    "label": "1x CPU, 1 Mbps",
+    "group": "network",
+    "description": "Network only: 1 Mbps, no CPU slowdown",
+    "cpuSlowdownMultiplier": 1,
+    "network": {
+      "id": "1mbps",
+      "label": "1 Mbps",
+      "rttMs": 20,
+      "downloadThroughputKbps": 1000,
+      "uploadThroughputKbps": 1000
+    }
+  },
+  "settings": {
+    "warmupRuns": 2,
+    "measuredRuns": 10,
+    "formFactor": "desktop",
+    "screen": {
+      "mobile": false,
+      "width": 1920,
+      "height": 1080,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "throttlingMethod": "devtools"
+  },
+  "environment": {
+    "lighthouseVersion": "12.8.2",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
+  },
+  "durationMs": 262234,
+  "stats": {
+    "largest-contentful-paint": {
+      "n": 10,
+      "mean": 4885.72,
+      "median": 4872.27,
+      "stddev": 53.04,
+      "min": 4806.1,
+      "max": 4967.31
+    },
+    "first-contentful-paint": {
+      "n": 10,
+      "mean": 4540.3,
+      "median": 4532.14,
+      "stddev": 50.9,
+      "min": 4472.4,
+      "max": 4616.8
+    },
+    "speed-index": {
+      "n": 10,
+      "mean": 4529.8,
+      "median": 4515,
+      "stddev": 45.32,
+      "min": 4474,
+      "max": 4610
+    },
+    "total-blocking-time": {
+      "n": 10,
+      "mean": 0,
+      "median": 0,
+      "stddev": 0,
+      "min": 0,
+      "max": 0
+    },
+    "max-potential-fid": {
+      "n": 10,
+      "mean": 16,
+      "median": 16,
+      "stddev": 0,
+      "min": 16,
+      "max": 16
+    },
+    "cumulative-layout-shift": {
+      "n": 10,
+      "mean": 0.02,
+      "median": 0.02,
+      "stddev": 0,
+      "min": 0.02,
+      "max": 0.02
+    },
+    "interactive": {
+      "n": 10,
+      "mean": 4540.3,
+      "median": 4532.14,
+      "stddev": 50.9,
+      "min": 4472.4,
+      "max": 4616.8
+    },
+    "server-response-time": {
+      "n": 10,
+      "mean": 34.6,
+      "median": 32.64,
+      "stddev": 8.88,
+      "min": 28.71,
+      "max": 60.75
+    }
+  },
+  "runs": [
+    {
+      "index": 1,
+      "ok": true,
+      "durationMs": 21834,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4827.832,
+          "display": "4.8 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4477.302,
+          "display": "4.5 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4475,
+          "display": "4.5 s",
+          "score": 0.06
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4477.302,
+          "display": "4.5 s",
+          "score": 0.5
+        },
+        "server-response-time": {
+          "value": 28.71,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "durationMs": 22376,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4966.793,
+          "display": "5.0 s",
+          "score": 0.08
+        },
+        "first-contentful-paint": {
+          "value": 4616.287,
+          "display": "4.6 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4595,
+          "display": "4.6 s",
+          "score": 0.05
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4616.287,
+          "display": "4.6 s",
+          "score": 0.47
+        },
+        "server-response-time": {
+          "value": 33.339,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "durationMs": 21622,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4867.845,
+          "display": "4.9 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4534.125,
+          "display": "4.5 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4504,
+          "display": "4.5 s",
+          "score": 0.06
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4534.125,
+          "display": "4.5 s",
+          "score": 0.49
+        },
+        "server-response-time": {
+          "value": 33.142,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "durationMs": 22140,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4863.636,
+          "display": "4.9 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4496.55,
+          "display": "4.5 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4499,
+          "display": "4.5 s",
+          "score": 0.06
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4496.55,
+          "display": "4.5 s",
+          "score": 0.5
+        },
+        "server-response-time": {
+          "value": 60.748,
+          "display": "Root document took 60 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "durationMs": 21835,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4967.314,
+          "display": "5.0 s",
+          "score": 0.08
+        },
+        "first-contentful-paint": {
+          "value": 4616.798,
+          "display": "4.6 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4610,
+          "display": "4.6 s",
+          "score": 0.05
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4616.798,
+          "display": "4.6 s",
+          "score": 0.47
+        },
+        "server-response-time": {
+          "value": 32.242,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 6,
+      "ok": true,
+      "durationMs": 21424,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4876.702,
+          "display": "4.9 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4509.654,
+          "display": "4.5 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4503,
+          "display": "4.5 s",
+          "score": 0.06
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4509.654,
+          "display": "4.5 s",
+          "score": 0.49
+        },
+        "server-response-time": {
+          "value": 33.725,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 7,
+      "ok": true,
+      "durationMs": 21820,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4895.758,
+          "display": "4.9 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4562.131,
+          "display": "4.6 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4553,
+          "display": "4.6 s",
+          "score": 0.05
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4562.131,
+          "display": "4.6 s",
+          "score": 0.48
+        },
+        "server-response-time": {
+          "value": 31.846,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 8,
+      "ok": true,
+      "durationMs": 22071,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4938.044,
+          "display": "4.9 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4587.571,
+          "display": "4.6 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4559,
+          "display": "4.6 s",
+          "score": 0.05
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4587.571,
+          "display": "4.6 s",
+          "score": 0.48
+        },
+        "server-response-time": {
+          "value": 33.047,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 9,
+      "ok": true,
+      "durationMs": 21440,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4847.159,
+          "display": "4.8 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4530.145,
+          "display": "4.5 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4526,
+          "display": "4.5 s",
+          "score": 0.06
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4530.145,
+          "display": "4.5 s",
+          "score": 0.49
+        },
+        "server-response-time": {
+          "value": 29.211,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    },
+    {
+      "index": 10,
+      "ok": true,
+      "durationMs": 21803,
+      "finalUrl": "https://linkup-web-next.vercel.app/",
+      "redirected": false,
+      "metrics": {
+        "largest-contentful-paint": {
+          "value": 4806.098,
+          "display": "4.8 s",
+          "score": 0.09
+        },
+        "first-contentful-paint": {
+          "value": 4472.399,
+          "display": "4.5 s",
+          "score": 0
+        },
+        "speed-index": {
+          "value": 4474,
+          "display": "4.5 s",
+          "score": 0.06
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0 ms",
+          "score": 1
+        },
+        "max-potential-fid": {
+          "value": 16,
+          "display": "20 ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0.02448646611284992,
+          "display": "0.024",
+          "score": 1
+        },
+        "interactive": {
+          "value": 4472.399,
+          "display": "4.5 s",
+          "score": 0.5
+        },
+        "server-response-time": {
+          "value": 29.944000000000003,
+          "display": "Root document took 30 ms",
+          "score": 1
+        }
+      },
+      "error": null
+    }
+  ]
+}
